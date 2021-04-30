@@ -38,7 +38,7 @@ function Form() {
     .catch((er) => {
       setError({...error, [event.target.Name]: er.errors[0]})
     })
-  }
+  } 
 
 
   const handleChange = (event) => {
