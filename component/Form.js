@@ -27,7 +27,7 @@ function Form() {
     formTemplate.isValid(FormState).then((valid) => {
       console.log("valid", valid)
     })
-  }),[FormState])
+  }),[FormState]
 
   function validationChange(event) {
     yup.reach(formTemplate, event.target.Name)
